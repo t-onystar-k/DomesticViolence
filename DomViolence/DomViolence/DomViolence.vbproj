@@ -92,13 +92,44 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="Legal.aspx" />
+    <Content Include="MentalHealthLogin.aspx" />
+    <Content Include="My Project\Home.aspx" />
+    <Content Include="pocso.aspx" />
+    <Content Include="Regn.aspx" />
     <Content Include="Web.config" />
+    <Content Include="mental.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Legal.aspx.designer.vb">
+      <DependentUpon>Legal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legal.aspx.vb">
+      <DependentUpon>Legal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MentalHealthLogin.aspx.designer.vb">
+      <DependentUpon>MentalHealthLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MentalHealthLogin.aspx.vb">
+      <DependentUpon>MentalHealthLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
       <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
@@ -113,6 +144,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pocso.aspx.designer.vb">
+      <DependentUpon>pocso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pocso.aspx.vb">
+      <DependentUpon>pocso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Regn.aspx.designer.vb">
+      <DependentUpon>Regn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Regn.aspx.vb">
+      <DependentUpon>Regn.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mental.aspx.designer.vb">
+      <DependentUpon>mental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mental.aspx.vb">
+      <DependentUpon>mental.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

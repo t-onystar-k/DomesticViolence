@@ -44,6 +44,13 @@
         .container {
             padding: 16px;
         }
+        td,th {
+            color: white;
+            padding-bottom: 20px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
         body {
             background-image: url("bg1.png");
             background-repeat: no-repeat, repeat;
@@ -56,7 +63,7 @@
 </head>
 <body>
     <div class="img-container">
-        <img src="law.jpg" alt="Avatar" class="avatar">
+        <img src="law.jpg" alt="Avatar" class="avatar"/>
     </div>
     <center>
         <h1>
@@ -67,23 +74,23 @@
     <table border="0">
 
         <tr>
-            <td>NAME:</td>
+            <td>NAME</td>
             <td><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
             </tr>
         <tr>
-            <td>AGE:</td>
+            <td>AGE</td>
             <td><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></td>
             </tr>
         <tr>
-            <td>PHONE NUMBER:</td>
+            <td>PHONE NUMBER</td>
             <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
         </tr>
         <tr>
-            <td>LOCATION:</td>
+            <td>ADDRESS</td>
             <td><asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></td>
             </tr>
         <tr>
-            <td> NAME OF ACCUSED:</td>
+            <td> NAME OF ACCUSED</td>
             <td><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
         </tr>
 

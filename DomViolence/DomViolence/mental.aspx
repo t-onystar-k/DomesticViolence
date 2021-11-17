@@ -53,6 +53,7 @@
     <title></title>
 </head>
 <body>
+    <form id="form1" runat="server">
     <center>
         <h1>
             Mental Health
@@ -60,40 +61,25 @@
     </center>
     <table border="0">
         <tr>
-        <th><label> Firstname </label></th>
-        <td><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-        <th><label> Middlename: </label></th>
-        <td><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-        <th><label> Lastname: </label></th>
-        <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
-        </tr>
+        <th><label> Name </label></th>
+        <td>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+            </tr>
         <tr>
             <th> Age: </th>
             <td>
-                <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             </td>
         </tr>
 
         <tr>
-            <th>House Name:</th>
-            <td><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <th>Area/Place/Locality:</th>
-            <td><asp:TextBox ID="TextBox6" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <th>Landmark</th>
-            <td><asp:TextBox ID="TextBox7" runat="server"></asp:TextBox></td>
+            <th>Address</th>
+            <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
         </tr>
         <tr>
             <th>Phone Number:</th>
             <td>
-                 <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                 <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
             </td>
 
         </tr>
@@ -103,5 +89,7 @@
         <center>
             <asp:Button ID="Button1" runat="server" CssClass="button" Text="Button" />
         </center>
+        <asp:CheckBox ID="CheckBox1" runat="server" Text="Psycological help required?" />
+        </form>
 </body>
 </html>

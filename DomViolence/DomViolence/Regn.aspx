@@ -44,7 +44,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        
             <center><h1>Women's Complaint Portal</h1></center>
 
     <table border="0">
@@ -70,7 +70,7 @@
         <tr>
             <td>LOCATION:</td>
             <td>
-                <textarea id="TextArea1"></textarea>
+                <asp:TextBox ID="TextBox5" runat="server" Height="52px" Width="421px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -82,10 +82,9 @@
 
     </table>
     <center>
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:Button ID="Button1" runat="server" CssClass="button" Text="Button" />
     </center>
 
-        </div>
     </form>
 </body>
 </html>
