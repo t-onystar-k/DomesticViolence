@@ -92,19 +92,47 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admins.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="ChildWelfareLogin.aspx" />
+    <Content Include="home.aspx" />
     <Content Include="Legal.aspx" />
-    <Content Include="MentalHealthLogin.aspx" />
+    <Content Include="LegalDeptLogin.aspx" />
+    <Content Include="MedicalLogin.aspx" />
     <Content Include="My Project\Home.aspx" />
     <Content Include="pocso.aspx" />
+    <Content Include="PoliceDashbord.aspx" />
+    <Content Include="PoliceDeptLogin.aspx" />
     <Content Include="Regn.aspx" />
     <Content Include="Web.config" />
     <Content Include="mental.aspx" />
+    <Content Include="Women%27sDeptLogin.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admins.aspx.designer.vb">
+      <DependentUpon>Admins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins.aspx.vb">
+      <DependentUpon>Admins.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ChildWelfareLogin.aspx.designer.vb">
+      <DependentUpon>ChildWelfareLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChildWelfareLogin.aspx.vb">
+      <DependentUpon>ChildWelfareLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Legal.aspx.designer.vb">
       <DependentUpon>Legal.aspx</DependentUpon>
     </Compile>
@@ -112,11 +140,18 @@
       <DependentUpon>Legal.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="MentalHealthLogin.aspx.designer.vb">
-      <DependentUpon>MentalHealthLogin.aspx</DependentUpon>
+    <Compile Include="LegalDeptLogin.aspx.designer.vb">
+      <DependentUpon>LegalDeptLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MentalHealthLogin.aspx.vb">
-      <DependentUpon>MentalHealthLogin.aspx</DependentUpon>
+    <Compile Include="LegalDeptLogin.aspx.vb">
+      <DependentUpon>LegalDeptLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MedicalLogin.aspx.designer.vb">
+      <DependentUpon>MedicalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalLogin.aspx.vb">
+      <DependentUpon>MedicalLogin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -152,6 +187,20 @@
       <DependentUpon>pocso.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="PoliceDashbord.aspx.designer.vb">
+      <DependentUpon>PoliceDashbord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PoliceDashbord.aspx.vb">
+      <DependentUpon>PoliceDashbord.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PoliceDeptLogin.aspx.designer.vb">
+      <DependentUpon>PoliceDeptLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PoliceDeptLogin.aspx.vb">
+      <DependentUpon>PoliceDeptLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Regn.aspx.designer.vb">
       <DependentUpon>Regn.aspx</DependentUpon>
     </Compile>
@@ -164,6 +213,13 @@
     </Compile>
     <Compile Include="mental.aspx.vb">
       <DependentUpon>mental.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Women%27sDeptLogin.aspx.designer.vb">
+      <DependentUpon>Women%27sDeptLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Women%27sDeptLogin.aspx.vb">
+      <DependentUpon>Women%27sDeptLogin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

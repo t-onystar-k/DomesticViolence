@@ -62,6 +62,7 @@
     <title>Legal help</title>
 </head>
 <body>
+    <form id="form1" runat="server">
     <div class="img-container">
         <img src="law.jpg" alt="Avatar" class="avatar"/>
     </div>
@@ -98,6 +99,6 @@
     <center>
         <asp:Button ID="Button1" runat="server" CssClass="button" Text="Button" />
     </center>
-
+    </form>
 </body>
 </html>

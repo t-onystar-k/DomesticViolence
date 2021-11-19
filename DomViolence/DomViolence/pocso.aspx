@@ -53,6 +53,7 @@
     <title></title>
 </head>
 <body bgcolor="orange">
+    <form id="form1" runat="server">
     <div class="column">
         
             <h2> Complaint Details</h2>
@@ -144,6 +145,6 @@
     <center>
     <asp:Button ID="Button1" runat="server" Text="Button" />
    </center>
-    
+ </form>   
 </body>
 </html>
