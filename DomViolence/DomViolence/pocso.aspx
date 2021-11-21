@@ -143,7 +143,7 @@
     <br /><br /><br /><br /><br /><br />
     <br /><br /><br /><br /><br /><br />
     <center>
-    <asp:Button ID="Button1" runat="server" Text="Button" />
+    <asp:Button ID="Button1" runat="server" Text="Submit" />
    </center>
  </form>   
 </body>

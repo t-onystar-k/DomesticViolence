@@ -14,7 +14,7 @@ Public Class Regn
         con = New SqlConnection(constring)
         con.Open()
         cmd.Connection = con
-        cmd.CommandText = "INSERT INTO complaints(name,age,phone,location,nameofaccused)values(@name,@age,@phone,@location,@nameofacc) "
+        cmd.CommandText = "INSERT INTO complaints(name,age,phone,location,nameofaccused,desc)values(@name,@age,@phone,@location,@nameofacc,@desc) "
         Dim paraname As New SqlParameter("@name", SqlDbType.VarChar, 50)
         paraname.Value = TextBox1.Text
         Dim paraage As New SqlParameter("@age", SqlDbType.Int, 4)
@@ -25,12 +25,15 @@ Public Class Regn
         paraloc.Value = TextBox5.Text
         Dim paraacc As New SqlParameter("@nameofacc", SqlDbType.VarChar, 50)
         paraacc.Value = TextBox4.Text
+        Dim paradesc As New SqlParameter("@desc", SqlDbType.VarChar, 500)
+        paradesc.Value = TextBox6.Text
 
         cmd.Parameters.Add(paraname)
         cmd.Parameters.Add(paraage)
         cmd.Parameters.Add(paraphone)
         cmd.Parameters.Add(paraloc)
         cmd.Parameters.Add(paraacc)
+        cmd.Parameters.Add(paradesc)
 
         Dim da As New SqlDataAdapter
         da.InsertCommand = cmd

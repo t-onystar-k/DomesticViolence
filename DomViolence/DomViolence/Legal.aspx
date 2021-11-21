@@ -57,6 +57,10 @@
             background-color: #cccccc;
             background-size:100%;
         }
+        input[type=text]
+        {
+            width:500px;
+        }
     </style>
     <meta charset="utf-8" />
     <title>Legal help</title>
@@ -91,8 +95,16 @@
             <td><asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></td>
             </tr>
         <tr>
-            <td> NAME OF ACCUSED</td>
+            <td>
+       NAME OF ACCUSED</td>
             <td><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
+        </tr>
+
+        <tr>
+            <td>
+            Description
+            </td>
+            <td><asp:TextBox ID="TextBox6" runat="server" Height="43px" TextMode="MultiLine" Width="500px"></asp:TextBox></td>
         </tr>
 
     </table>

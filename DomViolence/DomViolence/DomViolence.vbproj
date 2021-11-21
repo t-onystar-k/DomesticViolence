@@ -108,7 +108,8 @@
     <Content Include="PoliceDeptLogin.aspx" />
     <Content Include="Regn.aspx" />
     <Content Include="Web.config" />
-    <Content Include="mental.aspx" />
+    <Content Include="medical.aspx" />
+    <Content Include="Women%27sDeptDashbord.aspx" />
     <Content Include="Women%27sDeptLogin.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -138,7 +139,7 @@
     </Compile>
     <Compile Include="Legal.aspx.vb">
       <DependentUpon>Legal.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="LegalDeptLogin.aspx.designer.vb">
       <DependentUpon>LegalDeptLogin.aspx</DependentUpon>
@@ -208,11 +209,18 @@
       <DependentUpon>Regn.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="mental.aspx.designer.vb">
-      <DependentUpon>mental.aspx</DependentUpon>
+    <Compile Include="medical.aspx.designer.vb">
+      <DependentUpon>medical.aspx</DependentUpon>
     </Compile>
-    <Compile Include="mental.aspx.vb">
-      <DependentUpon>mental.aspx</DependentUpon>
+    <Compile Include="medical.aspx.vb">
+      <DependentUpon>medical.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Women%27sDeptDashbord.aspx.designer.vb">
+      <DependentUpon>Women%27sDeptDashbord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Women%27sDeptDashbord.aspx.vb">
+      <DependentUpon>Women%27sDeptDashbord.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Women%27sDeptLogin.aspx.designer.vb">

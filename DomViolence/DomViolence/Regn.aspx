@@ -70,13 +70,19 @@
         <tr>
             <td>LOCATION:</td>
             <td>
-                <asp:TextBox ID="TextBox5" runat="server" Height="52px" Width="421px"></asp:TextBox>
+                <asp:TextBox ID="TextBox5" runat="server" Height="52px" TextMode="MultiLine" Width="421px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td> NAME OF ACCUSED:</td>
             <td>
                 <asp:TextBox ID="TextBox4" runat="server" Width="426px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td> Description:</td>
+            <td>
+                <asp:TextBox ID="TextBox6" runat="server"  TextMode="MultiLine" Width="426px" Height="85px"></asp:TextBox>
             </td>
         </tr>
 
