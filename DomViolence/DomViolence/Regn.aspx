@@ -41,6 +41,18 @@
         }
     </style>
     <title></title>
+
+    <script>
+        function isNumber(evt) {
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                return false;
+            }
+            return true;
+        }
+    </script>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -58,13 +70,13 @@
         <tr>
             <td>AGE:</td>
             <td>
-                <asp:TextBox ID="TextBox2" runat="server" Width="426px"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" Width="426px" onkeypress="return isNumber(event)"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>PHONE NUMBER:</td>
             <td>
-                <asp:TextBox ID="TextBox3" runat="server" Width="426px"></asp:TextBox>
+                <asp:TextBox ID="TextBox3" runat="server" Width="426px" onkeypress="return isNumber(event)"></asp:TextBox>
             </td>
         </tr>
         <tr>

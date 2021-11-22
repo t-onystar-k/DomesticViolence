@@ -51,6 +51,18 @@
     </style>
     <meta charset="utf-8" />
     <title></title>
+
+    <script>
+        function isNumber(evt) {
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                return false;
+            }
+            return true;
+        }
+    </script>
+
 </head>
 <body bgcolor="orange">
     <form id="form1" runat="server">
@@ -73,7 +85,7 @@
                 <tr>
                     <th> Age: </th>
                     <td>
-                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
                     </td>
                 </tr>
 
@@ -87,12 +99,12 @@
                 </tr>
                 <tr>
                     <th>pin</th>
-                    <td><asp:TextBox ID="TextBox7" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="TextBox7" runat="server" onkeypress="return isNumber(event)"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <th>Phone Number:</th>
                     <td>
-                        <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox8" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
                     </td>
 
                 </tr>
@@ -125,12 +137,12 @@
             </tr>
             <tr>
                 <th>Pin</th>
-                <td><asp:TextBox ID="TextBox14" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox ID="TextBox14" runat="server" onkeypress="return isNumber(event)"></asp:TextBox></td>
             </tr>
             <tr>
                 <th>Phone Number:</th>
                 <td>
-                    <asp:TextBox ID="TextBox15" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox15" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
                 </td>
 
             </tr>
