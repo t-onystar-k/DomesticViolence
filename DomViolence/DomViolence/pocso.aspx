@@ -72,20 +72,20 @@
             <table border="0">
                 <tr>
                     <th><label> Firstname </label></th>
-                    <td><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="TextBox1" runat="server" required></asp:TextBox></td>
                 </tr>
                 <tr>
                     <th><label> Middlename: </label></th>
-                    <td><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="TextBox2" runat="server" required></asp:TextBox></td>
                 </tr>
                 <tr>
                     <th><label> Lastname: </label></th>
-                    <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="TextBox3" runat="server" required></asp:TextBox></td>
                 </tr>
                 <tr>
                     <th> Age: </th>
                     <td>
-                        <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
                     </td>
                 </tr>
 
@@ -104,7 +104,7 @@
                 <tr>
                     <th>Phone Number:</th>
                     <td>
-                        <asp:TextBox ID="TextBox8" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
+                        <asp:TextBox ID="TextBox8" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
                     </td>
 
                 </tr>

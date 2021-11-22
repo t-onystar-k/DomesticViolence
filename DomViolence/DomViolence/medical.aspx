@@ -75,23 +75,23 @@
         <tr>
         <th><label> Name </label></th>
         <td>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+            <asp:TextBox ID="TextBox1" runat="server" required></asp:TextBox></td>
             </tr>
         <tr>
             <th> Age: </th>
             <td>
-                <asp:TextBox ID="TextBox2" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
             </td>
         </tr>
 
         <tr>
             <th>Address</th>
-            <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
+            <td><asp:TextBox ID="TextBox3" runat="server" required></asp:TextBox></td>
         </tr>
         <tr>
             <th>Phone Number:</th>
             <td>
-                 <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
+                 <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
             </td>
 
         </tr>

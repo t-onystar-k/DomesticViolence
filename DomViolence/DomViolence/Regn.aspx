@@ -64,25 +64,25 @@
         <tr>
             <td>NAME:</td>
             <td> 
-                <asp:TextBox ID="TextBox1" runat="server" Width="426px"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server" Width="426px" required></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>AGE:</td>
             <td>
-                <asp:TextBox ID="TextBox2" runat="server" Width="426px" onkeypress="return isNumber(event)"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" Width="426px" onkeypress="return isNumber(event)" required></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>PHONE NUMBER:</td>
             <td>
-                <asp:TextBox ID="TextBox3" runat="server" Width="426px" onkeypress="return isNumber(event)"></asp:TextBox>
+                <asp:TextBox ID="TextBox3" runat="server" Width="426px" onkeypress="return isNumber(event)" required></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>LOCATION:</td>
             <td>
-                <asp:TextBox ID="TextBox5" runat="server" Height="52px" TextMode="MultiLine" Width="421px"></asp:TextBox>
+                <asp:TextBox ID="TextBox5" runat="server" Height="52px" TextMode="MultiLine" Width="421px" required></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -94,7 +94,7 @@
         <tr>
             <td> Description:</td>
             <td>
-                <asp:TextBox ID="TextBox6" runat="server"  TextMode="MultiLine" Width="426px" Height="85px"></asp:TextBox>
+                <asp:TextBox ID="TextBox6" runat="server"  TextMode="MultiLine" Width="426px" Height="85px" required></asp:TextBox>
             </td>
         </tr>
 

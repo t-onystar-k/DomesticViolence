@@ -92,19 +92,19 @@
 
         <tr>
             <td>NAME</td>
-            <td><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+            <td><asp:TextBox ID="TextBox1" runat="server" required></asp:TextBox></td>
             </tr>
         <tr>
             <td>AGE</td>
-            <td><asp:TextBox ID="TextBox2" runat="server" onkeypress="return isNumber(event)"></asp:TextBox></td>
+            <td><asp:TextBox ID="TextBox2" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox></td>
             </tr>
         <tr>
             <td>PHONE NUMBER</td>
-            <td><asp:TextBox ID="TextBox3" runat="server" onkeypress="return isNumber(event)"></asp:TextBox></td>
+            <td><asp:TextBox ID="TextBox3" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox></td>
         </tr>
         <tr>
             <td>ADDRESS</td>
-            <td><asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></td>
+            <td><asp:TextBox ID="TextBox4" runat="server" required></asp:TextBox></td>
             </tr>
         <tr>
             <td>
@@ -116,7 +116,7 @@
             <td>
             Description
             </td>
-            <td><asp:TextBox ID="TextBox6" runat="server" Height="43px" TextMode="MultiLine" Width="500px"></asp:TextBox></td>
+            <td><asp:TextBox ID="TextBox6" runat="server" Height="43px" TextMode="MultiLine" Width="500px" required></asp:TextBox></td>
         </tr>
 
     </table>
