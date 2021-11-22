@@ -103,7 +103,7 @@
             </tr>
             <tr>
                 <th><label>Description:</label></th>
-                <td><asp:TextBox ID="TextBox6" runat="server" required></asp:TextBox></td>
+                <td><asp:TextBox ID="TextBox6" runat="server" require></asp:TextBox></td>
             </tr>
         </table>
 
@@ -113,9 +113,10 @@
     <br /><br /><br /><br /><br /><br />
     <br /><br /><br /><br /><br /><br />
     <br /><br /><br /><br /><br /><br />
-    <center>
-    <asp:Button ID="Button1" runat="server" Text="Submit" />
-   </center>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    
+        <asp:Button ID="Button1" runat="server" Text="Submit" />
+   
  </form>   
 </body>
 </html>

@@ -96,7 +96,9 @@
         </tr>
         <tr>
             <th>Psychological Assistance Required ? (yes/no)</th>
+            <td>
             <asp:TextBox ID="TextBox5" runat="server" required></asp:TextBox>
+                </td>
         </tr>
 
         </table>

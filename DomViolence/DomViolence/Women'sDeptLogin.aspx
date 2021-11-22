@@ -1,5 +1,19 @@
-﻿2
+﻿
 <!DOCTYPE html>
+<script runat="server">
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Protected Sub Button3_Click(sender As Object, e As EventArgs)
+        If TextBox1.Text = "women" And TextBox2.Text = "wom123" Then
+            Response.Redirect("/women'sdeptdashbord.aspx")
+        End If
+
+    End Sub
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -21,7 +35,8 @@
             box-sizing: border-box;
         }
 
-        button {
+        .button
+            {
             background-color: dodgerblue;
             color: white;
             padding: 14px 20px;
@@ -64,7 +79,8 @@
         <label for="psw"><b>Password</b></label>
         <asp:TextBox ID="TextBox2" runat="server" ></asp:TextBox>
 
-        <button type="submit">Login</button>
+        <asp:Button ID="Button3" runat="server"  CssClass="button" Text="LOGIN" OnClick="Button3_Click"/>
+
         <label>
             <asp:CheckBox ID="CheckBox1" runat="server" Text=" " />Remember me
         </label>
