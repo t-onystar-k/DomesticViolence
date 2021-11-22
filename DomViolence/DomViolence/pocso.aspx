@@ -77,18 +77,18 @@
                 <tr>
                     <th> Age: </th>
                     <td>
-                        <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
                     </td>
                 </tr>
 
                 <tr>
                     <th>Address</th>
-                    <td><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <th>Phone Number:</th>
                     <td>
-                        <asp:TextBox ID="TextBox8" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
                     </td>
 
                 </tr>
@@ -99,7 +99,11 @@
         <table border="0">
             <tr>
                 <th><label>Culprit Name:</label></th>
-                <td><asp:TextBox ID="TextBox9" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <th><label>Description:</label></th>
+                <td><asp:TextBox ID="TextBox6" runat="server" required></asp:TextBox></td>
             </tr>
         </table>
 
