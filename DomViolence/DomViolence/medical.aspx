@@ -93,7 +93,10 @@
             <td>
                  <asp:TextBox ID="TextBox4" runat="server" onkeypress="return isNumber(event)" required></asp:TextBox>
             </td>
-
+        </tr>
+        <tr>
+            <th>Psychological Assistance Required ? (yes/no)</th>
+            <asp:TextBox ID="TextBox5" runat="server" required></asp:TextBox>
         </tr>
 
         </table>

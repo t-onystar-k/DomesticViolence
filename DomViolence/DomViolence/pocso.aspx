@@ -71,16 +71,8 @@
             <h2> Complaint Details</h2>
             <table border="0">
                 <tr>
-                    <th><label> Firstname </label></th>
+                    <th><label> Name </label></th>
                     <td><asp:TextBox ID="TextBox1" runat="server" required></asp:TextBox></td>
-                </tr>
-                <tr>
-                    <th><label> Middlename: </label></th>
-                    <td><asp:TextBox ID="TextBox2" runat="server" required></asp:TextBox></td>
-                </tr>
-                <tr>
-                    <th><label> Lastname: </label></th>
-                    <td><asp:TextBox ID="TextBox3" runat="server" required></asp:TextBox></td>
                 </tr>
                 <tr>
                     <th> Age: </th>
@@ -90,16 +82,8 @@
                 </tr>
 
                 <tr>
-                    <th>House Name:</th>
+                    <th>Address</th>
                     <td><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
-                </tr>
-                <tr>
-                    <th>Area/Place/Locality:</th>
-                    <td><asp:TextBox ID="TextBox6" runat="server"></asp:TextBox></td>
-                </tr>
-                <tr>
-                    <th>pin</th>
-                    <td><asp:TextBox ID="TextBox7" runat="server" onkeypress="return isNumber(event)"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <th>Phone Number:</th>
@@ -108,43 +92,14 @@
                     </td>
 
                 </tr>
-
-
             </table>
     </div>
     <div class="column">
         <h2>Details about the culprit</h2>
         <table border="0">
             <tr>
-                <th><label>First Name:</label></th>
+                <th><label>Culprit Name:</label></th>
                 <td><asp:TextBox ID="TextBox9" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <th><label> Middlename: </label></th>
-                <td><asp:TextBox ID="TextBox10" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <th><label> Lastname: </label></th>
-                <td><asp:TextBox ID="TextBox11" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <th>House Name:</th>
-                <td><asp:TextBox ID="TextBox12" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <th>Area/Place/Locality:</th>
-                <td><asp:TextBox ID="TextBox13" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <th>Pin</th>
-                <td><asp:TextBox ID="TextBox14" runat="server" onkeypress="return isNumber(event)"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <th>Phone Number:</th>
-                <td>
-                    <asp:TextBox ID="TextBox15" runat="server" onkeypress="return isNumber(event)"></asp:TextBox>
-                </td>
-
             </tr>
         </table>
 
