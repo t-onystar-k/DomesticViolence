@@ -104,9 +104,8 @@
         </table>
 
         <center>
-            <asp:Button ID="Button1" runat="server" CssClass="button" Text="Button" />
+            <asp:Button ID="Button1" runat="server" CssClass="button" Text="Submit" />
         </center>
-        <asp:CheckBox ID="CheckBox1" runat="server" Text="Psycological help required?" />
         </form>
 </body>
 </html>

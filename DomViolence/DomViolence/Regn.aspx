@@ -100,7 +100,7 @@
 
     </table>
     <center>
-        <asp:Button ID="Button1" runat="server" CssClass="button" Text="Button" />
+        <asp:Button ID="Button1" runat="server" CssClass="button" Text="Submit" />
     </center>
 
     </form>

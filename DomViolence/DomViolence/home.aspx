@@ -54,11 +54,35 @@
             background-color: #cccccc;
             background-size: 100%;
         }
+        .img-container {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+
+        img.avatar {
+            background-color:white;            
+            width: 50%;
+            border-radius: 5%;
+        }
+
+        .container {
+            padding: 16px;
+        }
+        a{
+            color:red;
+            font-size:30px;
+        }
     </style>
     <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
+        
+            <div class="img-container">
+            <img src="icon1.png" alt="Avatar" class="avatar"/>
+            </div>
+        
+            
             
                 <center><table border="0">
                 <tr>
@@ -70,7 +94,6 @@
             </table>
             </center>
                               <a href="Admins.aspx">Admin Login</a>
-  
     </form>
 </body>
 </html>
