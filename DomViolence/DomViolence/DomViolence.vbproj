@@ -100,10 +100,13 @@
     <Content Include="ChildWelfareLogin.aspx" />
     <Content Include="home.aspx" />
     <Content Include="Legal.aspx" />
+    <Content Include="Legaldeptdashboard.aspx" />
     <Content Include="LegalDeptLogin.aspx" />
+    <Content Include="medicaldeptdashboard.aspx" />
     <Content Include="MedicalLogin.aspx" />
     <Content Include="My Project\Home.aspx" />
     <Content Include="pocso.aspx" />
+    <Content Include="pocsodashboard.aspx" />
     <Content Include="PoliceDashbord.aspx" />
     <Content Include="PoliceDeptLogin.aspx" />
     <Content Include="Regn.aspx" />
@@ -141,11 +144,25 @@
       <DependentUpon>Legal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Legaldeptdashboard.aspx.designer.vb">
+      <DependentUpon>Legaldeptdashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legaldeptdashboard.aspx.vb">
+      <DependentUpon>Legaldeptdashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="LegalDeptLogin.aspx.designer.vb">
       <DependentUpon>LegalDeptLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="LegalDeptLogin.aspx.vb">
       <DependentUpon>LegalDeptLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="medicaldeptdashboard.aspx.designer.vb">
+      <DependentUpon>medicaldeptdashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="medicaldeptdashboard.aspx.vb">
+      <DependentUpon>medicaldeptdashboard.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="MedicalLogin.aspx.designer.vb">
@@ -186,6 +203,13 @@
     </Compile>
     <Compile Include="pocso.aspx.vb">
       <DependentUpon>pocso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="pocsodashboard.aspx.designer.vb">
+      <DependentUpon>pocsodashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pocsodashboard.aspx.vb">
+      <DependentUpon>pocsodashboard.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="PoliceDashbord.aspx.designer.vb">

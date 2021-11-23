@@ -1,7 +1,22 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="MedicalLogin.aspx.vb" Inherits="DomViolence.MentalHealthLogin" %>
-
+﻿
 <!DOCTYPE html>
+<script runat="server">
 
+    Protected Sub Button1_Click(sender As Object, e As EventArgs)
+        Dim uname = "admin"
+        Dim pass = "admin"
+
+        If TextBox1.Text <> uname Then
+            MsgBox("Invalid credentials")
+        ElseIf textbox2.Text <> pass Then
+            MsgBox("Invalid credentials")
+        Else
+            MsgBox("Logged in")
+            Response.Redirect("/medicaldeptdashboard.aspx")
+
+        End If
+    End Sub
+</script>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <style>
@@ -107,7 +122,7 @@
     <title></title>
 </head>
 <body>
-   <form id="form1" runat="server">
+  <form id="form1" runat="server">
     <h1></h1>
 	   <label for="chk">Medical Department Login</label>
 <div class="main">  	
@@ -118,9 +133,9 @@
 				<br />
 				<br />
 				<br />
-                    <asp:TextBox ID="TextBox1" runat="server" placeholder="Username"></asp:TextBox>
-                    <asp:TextBox ID="TextBox2" runat="server" placeholder="password"></asp:TextBox>
-                    <asp:Button ID="Button1" runat="server" CssClass="button" Text="Login" />
+                    <asp:TextBox ID="TextBox1" runat="server" placeholder="Username" required></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" placeholder="password" type="password" required></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" CssClass="button" Text="Login" OnClick="Button1_Click" />
 				
 			</div>
 	</div>

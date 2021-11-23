@@ -68,15 +68,6 @@ Partial Public Class Regn
     Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox6 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox6 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''Button1 control.
     '''</summary>
     '''<remarks>

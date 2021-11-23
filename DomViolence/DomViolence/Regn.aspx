@@ -91,12 +91,6 @@
                 <asp:TextBox ID="TextBox4" runat="server" Width="426px"></asp:TextBox>
             </td>
         </tr>
-        <tr>
-            <td> Description:</td>
-            <td>
-                <asp:TextBox ID="TextBox6" runat="server"  TextMode="MultiLine" Width="426px" Height="85px" required></asp:TextBox>
-            </td>
-        </tr>
 
     </table>
     <center>
